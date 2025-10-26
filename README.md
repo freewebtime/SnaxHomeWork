@@ -70,7 +70,7 @@ This issue shows the pink overlay on top of the water. We can see that the pink 
   
   ![Test Home Work](Readme/Images/Runtime2.PNG)
 
-* Yellow square represents a cursor. Use WASD keys to move it thorugh the grid
+* Yellow square represents a cursor. Use WASD keys to move it thorugh the grid. Here can be changed the CellSize and GridSize. `note: this values are logic-only. Changing this values does not automatically change the visuals for GridCells and for cursor visuals (those are expected to be edited by artist)`
 
   ![Controls](Readme/Images/PuzzleController.PNG)
 
@@ -78,7 +78,7 @@ This issue shows the pink overlay on top of the water. We can see that the pink 
 
   ![Authoring Zone_A](Readme/Images/Authoring_Zone_A.PNG)
 
-* Puzzle Grid (or game field) is a 100 static cubes each indicating it's own cell. 
+* Puzzle Grid (or game field) is a 100 static cubes each indicating it's own cell. The grid is a static content, so if you change the grid size, adjust the GridCells' objects accordingly.
 
   ![Authoring Zone_B](Readme/Images/Authoring_Zone_B.PNG)
 
@@ -93,6 +93,10 @@ This issue shows the pink overlay on top of the water. We can see that the pink 
 * Configure zones in editor on Hub scene (no need to open Zone_A or Zone_B scene for that)
 
   ![Authoring Zone_B](Readme/Images/Authoring_Zone_B.PNG)
+
+* Addressables Groups screenshot:
+
+  ![Addressables](Readme/Images/AddressablesGroups.PNG)
 
 * Commented code for easy understanding what's going on there
 
