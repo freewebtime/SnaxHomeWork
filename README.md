@@ -78,9 +78,11 @@ This issue shows the pink overlay on top of the water. We can see that the pink 
 
   ![Authoring Zone_A](Readme/Images/Authoring_Zone_A.PNG)
 
+  ![Authoring Zone_B](Readme/Images/Authoring_Zone_B.PNG)
+
 * Puzzle Grid (or game field) is a 100 static cubes each indicating it's own cell. The grid is a static content, so if you change the grid size, adjust the GridCells' objects accordingly.
 
-  ![Authoring Zone_B](Readme/Images/Authoring_Zone_B.PNG)
+  ![Authoring Zone_B](Readme/Images/FieldViewInEditor.PNG)
 
 * Yellow cube represents a cursor the User can move with WASD keys, and the distance to which determines which zones must be loaded and which must be unloaded.
 
